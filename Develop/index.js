@@ -58,7 +58,6 @@ const questions = [
   },
 ];
 function writeToFile(fileName, data) {
-  console.log("should write into file");
   return writeFileAsync(fileName, data);
 }
 function init() {
